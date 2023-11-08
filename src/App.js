@@ -1,12 +1,12 @@
 import logo from "./logo.svg";
 import "./App.css";
-import DevBranchFile from "./dev";
+import StagingFile from "./staging";
 
 function App() {
   return (
     <div className="App">
       <p>Main branch</p>
-      <DevBranchFile />
+      <StagingFile />
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
